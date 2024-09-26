@@ -1,1 +1,0 @@
-# welcome_tg_dollar_rate
