@@ -3,6 +3,10 @@
 2. **Создайте виртуальное окружение** в корне вашего проекта:
    ```bash
    python -m venv venv
+3. **Загрузите проект с github** используя:
+   ```bash  
+   git clone https://github.com/majestic-somke/welcome_tg_dollar_rate.git
+   
 - Создайте файл с названием ".env.dev" в корне проекта. Поместите токен своего телеграм бота в созданный файл. Пример: TG_TOKEN="YOUR_TOKEN_HERE"  
 - Установите необходимые библиотеки, введя в терминале: pip install -r requirements.txt  
 - Запустите бота, введя в терминале: python main.py  
