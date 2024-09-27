@@ -6,7 +6,7 @@ from api_requests import get_usd_rub
 TG_TOKEN = eloader.get_var("TG_TOKEN")
 bot = telebot.TeleBot(TG_TOKEN)
 users = {}
-dollar_rate = get_usd_rub()
+dollar_rate = get_usd_rub() if get_usd_rub() else "неизвестен ¯\_(ツ)_/¯ "
 
 
 @bot.message_handler(commands=['start'])
